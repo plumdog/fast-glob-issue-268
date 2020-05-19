@@ -1,0 +1,29 @@
+{
+  "name": "fast-glob-issue-268",
+  "version": "1.0.0",
+  "description": "https://github.com/mrmlnc/fast-glob/issues/268",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-node": "ts-node",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plumdog/fast-glob-issue-268.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plumdog/fast-glob-issue-268/issues"
+  },
+  "homepage": "https://github.com/plumdog/fast-glob-issue-268#readme",
+  "dependencies": {
+    "@types/node": "^14.0.1",
+    "typescript": "^3.9.2"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.1"
+  }
+}
