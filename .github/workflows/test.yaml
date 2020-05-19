@@ -6,6 +6,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        fast-glob: [2.2.7, 3.0.0, 3.2.2]
+
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js 12
@@ -13,4 +17,4 @@ jobs:
       with:
         node-version: 12
     - run: npm install
-    - run: ./runTest.sh 3
+    - run: ./runTest.sh ${{ matrix.fast-glob }}
