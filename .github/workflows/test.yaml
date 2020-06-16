@@ -9,7 +9,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        fast-glob: [2.2.7, 3.0.0, 3.2.2]
+        fast-glob: [2.2.7, 3.0.0, 3.2.2, 3.2.3]
 
     steps:
     - uses: actions/checkout@v2
